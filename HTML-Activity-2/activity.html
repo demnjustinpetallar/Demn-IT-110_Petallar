@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML Learning Journey</title>
+</head>
+<body>
+
+    <h1 id="main-heading">My HTML Learning Journey</h1>
+    <p>Welcome to my HTML activity! This page shows what I learned about HTML.</p>
+
+    <nav>
+        <a href="#images">Images</a> |
+        <a href="#links">Hyperlinks</a> |
+        <a href="#multimedia">Multimedia</a> |
+        <a href="#useful-tags">Useful Tags</a> |
+        <a href="#html-dom">HTML DOM</a>
+    </nav>
+
+    <hr>
+
+    <!-- 1. IMAGES -->
+    <section id="images">
+        <h2>Images</h2>
+        <p>Here are three images related to technology and learning.</p>
+
+        <figure>
+            <img src="images/computer.jpg"
+                 alt="A computer used for programming"
+                 width="300" height="200">
+            <figcaption>A computer is useful for learning programming.</figcaption>
+        </figure>
+
+        <img src="images/coding.jpg"
+             alt="Code displayed on a computer screen"
+             width="300" height="200">
+
+        <img src="images/technology.jpg"
+             alt="Technology devices used for studying"
+             width="300" height="200">
+    </section>
+
+    <hr>
+
+    <!-- 2. HYPERLINKS -->
+    <section id="links">
+        <h2>Hyperlinks</h2>
+
+        <p>Internal link:
+            <a href="#useful-tags">Go to Useful Tags</a>
+        </p>
+
+        <p>External link:
+            <a href="https://www.w3schools.com/"
+               target="_blank" rel="noopener noreferrer">
+                Learn HTML at W3Schools
+            </a>
+        </p>
+
+        <p>Email link:
+            <a href="mailto:student@example.com">Send an email</a>
+        </p>
+
+        <p>Same-page anchor:
+            <a href="#html-dom">Jump to the HTML DOM section</a>
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- 3. MULTIMEDIA -->
+    <section id="multimedia">
+        <h2>Multimedia</h2>
+
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="media/audio.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+
+        <h3>Video</h3>
+        <video controls width="400">
+            <source src="media/video.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+    </section>
+
+    <hr>
+
+    <!-- 4. USEFUL TAGS -->
+    <section id="useful-tags">
+        <h2>Useful Tags</h2>
+
+        <!-- The blockquote tag displays a quotation. -->
+        <blockquote>
+            "Learning never stops."
+        </blockquote>
+
+        <!-- The abbr tag explains an abbreviation. -->
+        <p><abbr title="HyperText Markup Language">HTML</abbr>
+           is used to structure web pages.</p>
+
+        <!-- The mark tag highlights important text. -->
+        <p>My goal is to <mark>improve my coding skills</mark>.</p>
+
+        <!-- The code tag displays a short code example. -->
+        <p>Example: <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code></p>
+    </section>
+
+    <hr>
+
+    <!-- 5. HTML DOM -->
+    <section id="html-dom">
+        <h2>HTML DOM</h2>
+
+        <p id="dom-description">
+            The HTML DOM represents a web page as a tree of elements.
+            Elements can have parent and child relationships.
+        </p>
+
+        <div id="dom-example">
+            <h3>Example of Parent and Child Elements</h3>
+            <ul>
+                <li>HTML is the root element.</li>
+                <li>Body contains the visible page content.</li>
+                <li>Sections contain headings and paragraphs.</li>
+            </ul>
+        </div>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 My HTML Learning Journey</p>
+    </footer>
+    <!--
+    The html element is the root element of the webpage.
+    The body element contains the visible page content.
+    The section element is a child of the body element.
+    The h2 and p elements are children of the section element.
+    The div element contains an h3 heading and a ul list.
+    -->
+</body>
+</html>
